@@ -1,5 +1,4 @@
-# City-Wide Pavement Distress Detection using Aerial Imagery and Deep Learning  - MSc Thesis Archive
-
+# City-Wide Pavement Distress Detection using Aerial Imagery and Deep Learning 
 This archive contains all the necessary data, code, and results for the MSc thesis titled "City-Wide Pavement Distress Detection Using Aerial Imagery and Deep Learning: A Case Study of Zurich"
 The goal of this archive is to ensure the full reproducibility of the research. The workflow is divided into four main Python scripts located in the `02_Code/` directory.
 
@@ -126,4 +125,5 @@ python 04_inference_sahi.py --model_run_name B_YOLOv11x_Zurich
 ```
 
 The final georeferenced detections will be saved as a GeoPackage file in the `03_Results/mapped_distress.gpkg/` directory.
+
 
