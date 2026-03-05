@@ -126,7 +126,13 @@ python 04_inference_sahi.py --model_run_name B_YOLOv11x_Zurich
 
 The final georeferenced detections will be saved as a GeoPackage file in the `03_Results/mapped_distress.gpkg/` directory.
 
+Here is a sample output from the YOLOv11 inference:
+
+![Detection Example](detection_example-1.png)
+**Figure 1:** Detection of pavement distress on aerial imagery. Blue boxes indicate identified distresses. Inset images show zoomed-in views of selected areas.
+
 ## Contact
 
 For questions, suggestions, or issues related to this project, please contact jonahesther.s2k@gmail.com
+
 
