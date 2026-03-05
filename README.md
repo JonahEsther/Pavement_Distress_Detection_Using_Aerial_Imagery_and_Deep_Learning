@@ -126,4 +126,7 @@ python 04_inference_sahi.py --model_run_name B_YOLOv11x_Zurich
 
 The final georeferenced detections will be saved as a GeoPackage file in the `03_Results/mapped_distress.gpkg/` directory.
 
+## Contact
+
+For questions, suggestions, or issues related to this project, please contact jonahesther.s2k@gmail.com
 
