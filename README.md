@@ -1,6 +1,15 @@
-# City-Wide Pavement Distress Detection using Aerial Imagery and Deep Learning 
-This archive contains all the necessary data, code, and results for the MSc thesis titled "City-Wide Pavement Distress Detection Using Aerial Imagery and Deep Learning: A Case Study of Zurich"
-The goal of this archive is to ensure the full reproducibility of the research. The workflow is divided into four main Python scripts located in the `02_Code/` directory.
+# City-Wide Pavement Distress Detection using Aerial Imagery and Deep Learning
+## Project Overview
+Urban road infrastructure is subject to continuous deterioration due to traffic, environmental conditions, and aging, making timely and scalable monitoring essential. Traditional inspections are labor-intensive and costly, while many automated approaches rely on ground-based or low-altitude imagery, limiting their coverage for city-wide assessments.
+
+This project develops a geospatial framework for **pavement distress detection** using high-resolution (10 cm GSD) aerial imagery over Zurich, Switzerland, combined with **deep learning-based object detection**. Road segments are extracted from aerial orthophotos to create a binary-labeled dataset distinguishing Pavement Distress from Non-Pavement Distress, reducing false positives and enhancing model focus.
+
+Two state-of-the-art object detection models, **YOLOv8x** and **YOLOv11x**, were evaluated. YOLOv11x achieved superior performance, with a mean Average Precision (mAP@0.5) of 38.0% for pavement distress detection. Multi-stage transfer learning and combined training with external low-altitude UAV datasets (HighRPD) were explored but resulted in performance degradation due to domain shift.
+
+The final model was applied to untiled aerial road images across Zurich using the **Slicing Aided Hyper Inference (SAHI)** framework, enabling efficient large-scale detection. This project demonstrates the practicality of using **open-access aerial imagery and deep learning** for automated urban infrastructure monitoring and provides a benchmark for future work in city-wide pavement distress detection.
+
+## Repository Overview
+This repository contains all the data, code, and results for detecting pavement distress in aerial imagery of Zurich. The goal of this repository is to ensure full reproducibility of the research. The workflow is divided into four main Python scripts located in the `02_Code/` directory..
 
 ---
 
@@ -135,4 +144,7 @@ Here is a sample output from the YOLOv11 inference:
 
 For questions, suggestions, or issues related to this project, please contact jonahesther.s2k@gmail.com
 
+## License
+
+This project is licensed under the [MIT License](LICENSE). 
 
